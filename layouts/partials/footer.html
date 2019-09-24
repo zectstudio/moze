@@ -1,0 +1,46 @@
+ <div class="text-center scrolltop" style="padding-top: 21px;"><a href="#"><i class="fa fa-angle-up scroll icon" id="scroll" style="color: rgb(255,255,255);font-size: 37px;"></i></a></div>
+<!--for export only-->
+ <div class="footer-dark" style="background-color: #313139;">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col item social">
+                {{ if .Site.Params.Socmed.Telegram }}
+                    <a class="shadow-none" href="https://t.me/{{ .Site.Params.Socmed.Telegram }}" title="{{ .Site.Params.Socmed.Telegram }}"><i class="fab fa-telegram-plane"></i></a>
+                {{ end }}
+                {{ if .Site.Params.Socmed.Twitter }}
+                    <a class="shadow-none" href="https://twitter.com/{{ .Site.Params.Socmed.Twitter }}" title="{{ .Site.Params.Socmed.Twitter }}"><i class="fab fa-twitter"></i></a>
+                {{ end }}
+                {{ if .Site.Params.Socmed.Instagram }}
+                    <a class="shadow-none" href="https://instagram.com/{{ .Site.Params.Socmed.Instagram }}" title="{{ .Site.Params.Socmed.Instagram }}"><i class="fab fa-instagram"></i></a>
+                {{ end }}
+                {{ if .Site.Params.Socmed.Linkedin }}
+                    <a class="shadow-none" href="https://linkedin.com/in/{{ .Site.Params.Socmed.Linkedin }}" title="{{ .Site.Params.Socmed.Linkedin }}"><i class="fab fa-linkedin"></i></a>
+                {{ end }}
+                {{ if .Site.Params.Socmed.Email }}
+                    <a class="shadow-none" href="mailto:{{ .Site.Params.Socmed.Email }}" title="{{ .Site.Params.Socmed.Email }}"><i class="fas fa-envelope"></i></a>
+                {{ end }}
+                </div>
+            </div>
+            <p class="copyright">
+                Mozegram - 2019
+                <br>
+                Made with <i class="text-danger fas fa-heart"></i> by <a href="https://github.com/artemtech">Artemtech</a>
+                <br>
+                Thanks to <a class="text-white" href="https://gohugo.io">Hugo</a>
+            </p>
+        </div>
+    </footer>
+</div>
+<!--delete this section when exporting document-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script src="{{ "js/app.js" | absURL}}"></script>
+<script src="{{ "js/isolde.js" | absURL}}"></script>
+<script type="module">
+    import isolde from '{{ "js/isolde.js" | absURL}}';
+    const isoldejs = new isolde();
+</script>
+<script src="{{ "js/lightgallery-all.min.js" | absURL}}"></script>
+</body>
+</html>

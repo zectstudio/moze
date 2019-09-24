@@ -1,0 +1,20 @@
+<div class="container-fluid main-content" style="padding-right: 30px;padding-left: 30px;">
+    <main class="sortable">
+        <div id="isolde" class="isolde-default">
+        {{ range .Data.Pages }}
+            <div class="card" data-isolde-el="{{ .Params.category }}">
+                <div class="lightgallery">
+                    <a class="figure imghvr-slide-up" href="{{ .Params.image | absURL }}">
+                        <img class="card__picture" src="{{ .Params.image | absURL }}">
+                        <figcaption>
+                            <h6 class="judul-pos">{{ .Title }}</h6>
+                            <p class="uraian-pos">{{ .Summary }}</p>
+                            <br>
+                        </figcaption>
+                    </a>
+                </div>
+            </div>
+        {{ end }}
+        </div>
+    </main>
+</div>

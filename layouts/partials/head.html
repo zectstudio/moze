@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<title>{{ block "title" . }}{{ .Site.Title }} {{ with .Params.Title }} | {{ . }}{{ end }}{{ end }}</title>
+<meta property="og:type" content="website">
+{{ hugo.Generator }}
+<meta name="description" content="{{ .Site.Params.Description }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400">
+<link rel="stylesheet" href="{{ "fonts/fontawesome5-overrides.min.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/app.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/Footer-Dark.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/imagehover.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/isolde.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/lg-fb-comment-box.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/lg-transitions.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/lightgallery.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/Navigation-Clean.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/sortable.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/styles.css" | absURL }}">
+</head>

@@ -1,0 +1,51 @@
+{{ partial "head.html" . }}
+<body style="background-color: #313139;color: #fff;font-size: 1em;font-weight: 300;font-family: 'Source Sans Pro', sans-serif;">
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="nav-img" src="img/logo.svg"></a>
+            <a class="open-menu" href="#"><img class="nav-img" src="img/menu.svg">
+                <div class="overlay">
+                    <h2 class="nav-title">Menu</h2>
+                    <nav class="overlay-menu">
+                        <ul>
+                        {{ range $.Site.Params.menu }}
+                            <li><a href="{{.link}}">{{.title}}</a></li>
+                        {{ end }}
+                            <li><img class="close-menu" src="img/close.svg" alt=""/></li>
+                        </ul>
+                    </nav>
+                </div>
+            </a>
+        </div>
+        </nav>
+    </div>
+    <div class="container-fluid main-header" style="background-image: url(&quot;img/img-header.svg&quot;);">
+        <div class="row content-header">
+            <div class="col-8 col-sm-9 col-xl-5 offset-1 offset-sm-1">
+                <h6><strong><em>Ketika Kata Tak Lagi Berdaya</em></strong><br></h6>
+                <p>
+                    <em>Beberapa hal tak bisa disampaikan lewat kata, seperti kisah tentang perjumpaan yang indah misalnya, kenangannya tak bisa utuh kita eja.&nbsp;</em>
+                    <br><br>
+                    <em>Saat itu terjadi mari kita masukkan semua ketidakberdayaan aksara pada sebuah ruang yang lebih hening dan gelap, agar suara, gerak, warna, rupa, dan segalanya jadi makin nyata sehingga dapat kita rasa kembali apa yang pernah atau akan terlewati dan kita sebut sebagai mimpi.</em>
+                    <br><br>
+                    <em>Inilah Ruangan itu, ruang ketika kata tak lagi menjadi yang utama untuk dipahami.</em>
+                    <br><br>
+                    <em>Mozegram!</em>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section id="section01">
+        <div class="container-fluid container-menu" style="padding-right: 50px;padding-left: 50px;">
+            <div class="wrapper">
+                <ul class="list-unstyled sortable__nav nav">
+                    <li class="list-menu"><a class="nav__link" data-isolde-link="all" href="#section01">Semua</a></li>
+                    {{ range $.Site.Params.portfolios.filter }}
+                        <li><a class="nav__link" data-isolde-link="{{.}}">{{.}}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </section>
