@@ -93,14 +93,16 @@ hugo new --kind mixed nama-postingan.md "judul postingan"
 #### Fitur-Fitur
 Moze! didesain sedemikian rupa untuk agar mudah dikelola dan nyaman dinikmati oleh siapapun. Berikut merupakan beberapa daftar fitur yang secara baku aktif pada tema Moze! 
 - [Isolde Layout](https://github.com/TristanBlg/Isolde) - *A javascript plugin to filter elements from a "masonry" grid*
-- [Lightgallery](http://sachinchoolur.github.io/lightGallery/) - *Lightgallery is a lightweight modular responsive jquery light box gallery, which allows you to create beautiful image & video galleries. *
+- [Lightgallery](http://sachinchoolur.github.io/lightGallery/) - L*ightgallery is a lightweight modular responsive jquery light box gallery, which allows you to create beautiful image & video galleries.*
 - Berbagi ke Twitter, Facebook, dan Pinterest
 - Layout yang responsif (dukungan untuk layar 2K+)
+  
   Moze! didesain agar karya Anda dapat dinikmati melalui banyak perangkat. 
 <p align="center"> 
 <img src=docs/img/responsif.png>
 </p>
 - Laman teroptimasi
+ 
  Semaksimal mungkin kami telah menyusun tema ini agar tak hanya cantik dilihat namun juga memiliki performa yang baik dan ringan. Berikut merupakan hasil audit yang membuktikan kesungguhan tersebut.
  <p align="center"> 
 <img src=docs/img/optimized.png>
