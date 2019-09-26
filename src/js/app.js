@@ -23,6 +23,10 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
 	$(".lightgallery").each(function (index) {
-		$(this).lightGallery({galleryId: index})
+		$(this).lightGallery({
+			galleryId: index,
+			download: false,
+			googlePlus: false
+		})
 	});
 });
