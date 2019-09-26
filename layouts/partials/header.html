@@ -3,8 +3,8 @@
     <div>
         <nav class="navbar navbar-light navbar-expand-md navigation-clean">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="nav-img" src="img/logo.svg"></a>
-            <a class="open-menu" href="#"><img class="nav-img" src="img/menu.svg">
+            <a class="navbar-brand" href="#"><img class="nav-img" src="img/logo.svg" alt="logo"></a>
+            <a class="open-menu" href="#"><img class="nav-img" src="img/menu.svg" alt="logo">
                 <div class="overlay">
                     <h2 class="nav-title">Menu</h2>
                     <nav class="overlay-menu">
@@ -12,7 +12,7 @@
                         {{ range $.Site.Params.menu }}
                             <li><a href="{{.link}}">{{.title}}</a></li>
                         {{ end }}
-                            <li><img class="close-menu" src="img/close.svg" alt=""/></li>
+                            <li><img class="close-menu" src="img/close.svg" alt="close"/></li>
                         </ul>
                     </nav>
                 </div>

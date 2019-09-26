@@ -1,0 +1,29 @@
+{{- $src := .Get "src" -}}
+{{- $title := .Get "title" -}}
+{{- $class := .Get "class" -}}
+{{- $tipe := .Get "type" -}}
+{{- $id := .Get "id" -}}
+{{- $videothumb := .Get "videothumb" -}}
+
+{{ if eq $tipe "image" }}
+<a class="figure imghvr-slide-up {{$class}}" href="{{ $src | absURL }}" data-sub-html=".caption-{{$id}}">
+    <img class="card__picture" src="{{ $src | absURL }}" alt="{{ $title }}" />
+    <figcaption class="caption-{{$id}}">
+        <h6 class="judul-pos">{{ $title }}</h6>
+        <p class="uraian-pos">{{ .Inner }}</p>
+    </figcaption>
+{{ else if eq $tipe "video" }}
+<a class="figure imghvr-slide-up {{$class}}" href="" data-sub-html=".caption-{{$id}}" data-poster="{{ $videothumb | absURL}}" data-html="#{{$id}}">
+    <img class="card__picture" src="{{ $videothumb | absURL}}" alt="{{ $title }}" />
+    <div style="display:none;" id="{{ $id }}">
+        <video class="lg-video-object lg-html5 video-js vjs-default-skin" controls preload="none">
+            <source src="{{ $src | absURL }}" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+    <figcaption class="caption-{{$id}}">
+        <h6 class="judul-pos">{{ $title }}</h6>
+        <p class="uraian-pos">{{ .Inner }}</p>
+    </figcaption>
+{{ end }}
+</a>

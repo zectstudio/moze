@@ -126,5 +126,6 @@ class isolde {
 		})
 	}
 }
-export
-default isolde;
+export default isolde;
+
+const ijs = new isolde();
