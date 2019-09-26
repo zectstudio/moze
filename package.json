@@ -7,9 +7,9 @@
     "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["portfolio","landing page","gallery","hugo theme"],
+  "author": "Artemtech & Rania Amina",
+  "license": "MIT License",
   "devDependencies": {
     "babel-core": "6.26.3",
     "babel-preset-es2015": "^6.24.1",

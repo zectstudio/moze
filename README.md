@@ -21,8 +21,7 @@ Tema ini mendukung portofolio berupa gambar dan video, untuk penggunaannya silak
 Silakan unduh tema Moze melalui tautan pada bagian atas dokumentasi ini atau silakan tambahkan tema ini ke dalam proyek Hugo Anda dengan menjalankan perintah berikut pada direktori utama.
 
 ```bash
-cd theme
-git submodule add -b master https://github.com/zectstudio/moze.git
+git submodule add https://github.com/zectstudio/moze.git themes/moze
 ````
 
 #### Pengaturan Dasar
@@ -79,7 +78,7 @@ hugo new --kind multi-img nama-postingan.md "judul postingan"
 hugo new --kind multi-video nama-postingan.md "judul postingan"
 
 # Pos Gambar & Video
-hugo new --kind mix nama-postingan.md "judul postingan"
+hugo new --kind mixed nama-postingan.md "judul postingan"
 ```
 
 #### Fitur-Fitur
