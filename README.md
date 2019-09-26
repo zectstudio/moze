@@ -24,6 +24,15 @@ Silakan unduh tema Moze melalui tautan pada bagian atas dokumentasi ini atau sil
 git submodule add https://github.com/zectstudio/moze.git themes/moze
 ````
 
+Setelah clone submodul berhasil, silakan jalankan perintah berikut.
+
+```bash
+cd themes/moze
+npm i
+npm run gulp
+cd ...
+```
+
 #### Pengaturan Dasar
 Contoh pengaturan ini saya terapkan pada jenis pengaturan yaml, bila Anda menggunakan jenis toml, silakan untuk menyesuaikan sintaknya.
 
