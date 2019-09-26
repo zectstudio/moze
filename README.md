@@ -9,7 +9,7 @@
 
 * * *
 <p align="center"> 
-![Tema Moze!](docs/img/screenshot.png)
+![Tema Moze!](/docs/img/screenshot.png)
 </p>
 
 #### Deskripsi 
@@ -90,12 +90,12 @@ Moze! didesain sedemikian rupa untuk agar mudah dikelola dan nyaman dinikmati ol
 - Layout yang responsif (dukungan untuk layar 2K+)
   Moze! didesain agar karya Anda dapat dinikmati melalui banyak perangkat. 
 <p align="center"> 
-![Tema Moze!](docs/img/responsif.png)
+![Responsif!](/docs/img/responsif.png)
 </p>
 - Laman teroptimasi
  Semaksimal mungkin kami telah menyusun tema ini agar tak hanya cantik dilihat namun juga memiliki performa yang baik dan ringan. Berikut merupakan hasil audit yang membuktikan kesungguhan tersebut.
  <p align="center"> 
-![Tema Moze!](docs/img/optimized.png)
+![Optimized](/docs/img/optimized.png)
 </p>
 
 #### Tiket untuk Dikerjakan
