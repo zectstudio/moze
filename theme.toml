@@ -3,11 +3,11 @@
 
 name = "Moze"
 license = "MIT"
-licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
-homepage = "http://example.com/"
-tags = []
-features = []
+licenselink = "https://raw.githubusercontent.com/zectstudio/moze/master/LICENSE"
+description = "Portfolio page with a minimum of text. This theme is made for all creators who want to talk using their artwork, because words and sentences are no longer enough."
+homepage = "http://raniaamina.id/"
+tags = ["portfolio","landing page","gallery","hugo theme"]
+features = ["LightGallery","Masonry grid","isolde","responsif","2k support","fully optimized"]
 min_version = "0.41"
 
 [author]
