@@ -2,8 +2,8 @@
 <img height="48" src="docs/img/moze.svg">
 <br> Tema Portofolio untuk Hugo
 <br>
-<a href="https://ppoffice.github.io/hexo-theme-icarus/">Preview</a> |
-<a href="https://github.com/zectstudio/moze/archive/master.zip">Download</a>
+<a href="https://mozegram.raniaamina.id">Demo</a> |
+<a href="https://github.com/zectstudio/moze/archive/master.zip">Unduh</a>
 <br>
 </p>
 

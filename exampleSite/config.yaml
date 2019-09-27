@@ -1,0 +1,45 @@
+# alamat dimana website ini ditayangkan
+baseURL: "https://mozegram.raniaamina.id/"
+languageCode: "en-us"
+metaDataFormat: "yaml"
+contentDir: "content"
+layoutDir: "layouts"
+publishDir: "public"
+title: "Mozegram!"
+disableKinds: ["taxonomy", "taxonomyTerm"]
+theme: "moze"
+params:
+# description untuk membuat meta website
+  description: "Mozegram! merupakan laman portofolio desain Rania Amina. Laman ini adalah bagian dari Mozelup! project yang dirintis pada tahun 2018."
+# images digunakan untuk mendaftarkan opengraph dan tag twitter
+# jika tidak diperlukan, Anda kosongi saja
+  images: ["logo.svg"]
+# menu filter untuk portofolio, nanti akan muncul di samping tombol filter "Semua"
+  portfolios:
+    filter: ["Inkscape","Gimp","Synfig/Sozi","Lain-Lain"]
+# daftar menu yang akan ditampilkan beserta tautannya
+  menu:
+    beranda:
+      title: "Beranda"
+      link: "/"
+    mozelide:
+      title: "Mozelide"
+      link: "https://mozelide.raniaamina.id"
+    catatan:
+      title: "Catatanku"
+      link: "https://catatan.raniaamina.id"
+    legacy:
+      title: "Legacy"
+      link: "https://legacy.raniaamina.id"
+    tentang:
+      title: "Tentang Rania"
+      link: "https://raniaamina.id/about"
+# daftar sosial media yang didukung, jika tidak ingin diisi, silakan dikosongi
+  socmed:
+    telegram: "raniaamina"
+    twitter: "raniaamina"
+    instagram: "raniaamina"
+    linkedin: "raniaamina"
+    email: "me@raniaamina.id"
+# id google analytics, 
+# googleAnalytics: UA-123-45
