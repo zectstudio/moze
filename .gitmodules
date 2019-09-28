@@ -1,0 +1,3 @@
+[submodule "moze-demo/themes/moze"]
+	path = moze-demo/themes/moze
+	url = https://github.com/zectstudio/moze.git

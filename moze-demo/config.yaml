@@ -1,0 +1,36 @@
+baseURL: "https://moze.netlify.com/"
+languageCode: "en-us"
+metaDataFormat: "yaml"
+contentDir: "content"
+layoutDir: "layouts"
+publishDir: "public"
+title: "Moze! - Theme by Zect Studio"
+disableKinds: ["taxonomy", "taxonomyTerm"]
+theme: "moze"
+params:
+  description: "Moze! - Tema Hugo yang didedikasikan untuk para desainer yang ingin membuat halaman portofolio. Tema ini mengusung konsep minim kata sebagaimana yang termanifestasikan pada bagian headernya, 'Inilah Ruangan itu, ruang ketika kata tak lagi menjadi yang utama untuk dipahami.'"
+  images: ["img/screenshot.png"]
+  portfolios:
+    filter: ["Inkscape","Gimp","Synfig/Sozi","Misc"]
+  menu:
+    0beranda:
+      title: "Beranda"
+      link: "/"
+    1mozegram:
+      title: "Mozegram"
+      link: "https://mozegram.raniaamina.id"
+    2mozelide:
+      title: "Mozelide"
+      link: "https://mozelide.raniaamina.id"
+    3catatan:
+      title: "Catatanku"
+      link: "https://catatan.raniaamina.id"
+    tentang:
+      title: "Tentang Rania"
+      link: "https://raniaamina.id/about"
+  socmed:
+    telegram: "raniaamina"
+    twitter: "raniaamina"
+    instagram: "raniaamina"
+    linkedin: "raniaamina"
+    email: "me@raniaamina.id"
